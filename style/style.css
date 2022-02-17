@@ -324,6 +324,10 @@ color: #0EB4C1;
     .sitenav-list{
         margin-bottom: 25px;
     }
+
+    .hero-img{
+        display: none;
+    }
 }
 
 
@@ -343,13 +347,9 @@ color: #0EB4C1;
         display: flex;
         justify-content: center;
     }
-    .hero-img{
-        width: 350px;
-        height: 350px;
-        display: flex;
-        justify-content: center;
 
-    }
+    
+    
 }
 
 
@@ -379,13 +379,7 @@ color: #0EB4C1;
         justify-content: center;
     }
 
-    .hero-img{
-        width: 200px; ;
-        height:200px ;
-        margin-right: auto;
-        margin-left: auto;
-       
-    }
+   
 }
 
 @media(max-width:530px){
@@ -399,7 +393,5 @@ color: #0EB4C1;
         flex-direction: column;
        
     }
-    .sitenav-item{
-        margin-right: 0;
-    }
+    
 }
