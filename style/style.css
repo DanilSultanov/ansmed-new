@@ -344,7 +344,10 @@ color: #0EB4C1;
         justify-content: center;
     }
     .hero-img{
-        display: none;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
 
     }
 }
@@ -374,6 +377,14 @@ color: #0EB4C1;
     .site-footer-container{
         flex-direction: column;
         justify-content: center;
+    }
+
+    .hero-img{
+        width: 200px; ;
+        height:200px ;
+        margin-right: auto;
+        margin-left: auto;
+       
     }
 }
 
